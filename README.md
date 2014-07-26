@@ -4,7 +4,7 @@ The goal of this homework is to prepare a “tidy data” set, from data previously 
 
 o http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-In his research paper “Tidy Data”, Hadley Wickham states that “Tidy datasets provide a standardized way to link the structure of a dataset (its physical layout) with its semantics (its meaning)”. Author considers a dataset either messy or tidy depending on how rows, columns and tables are matched up with observations, variable and types. In a tidy data:
+In his research paper “Tidy Data” (http://vita.had.co.nz/papers/tidy-data.pdf), Hadley Wickham states that “Tidy datasets provide a standardized way to link the structure of a dataset (its physical layout) with its semantics (its meaning)”. Author considers a dataset either messy or tidy depending on how rows, columns and tables are matched up with observations, variable and types. In a tidy data:
 
 o Each variable forms a column
 
@@ -12,7 +12,7 @@ o Each observation forms a row
 
 o Each type of observation unit forms a table.
 
-Therefore, “tidy data” (http://vita.had.co.nz/papers/tidy-data.pdf) makes it easy for an analyst or a computer to extra needed variables because it provides a standard way of structuring a dataset.
+Therefore, “tidy data” makes it easy for an analyst or a computer to extra needed variables because it provides a standard way of structuring a dataset.
 An R script (run_analysis.R) was developed that performs the following:
 
 o Changes the original variable names with descriptive variable names.
