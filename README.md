@@ -1,11 +1,13 @@
 Introduction:
 =============
 The goal of this homework is to prepare a “tidy data” set, from data previously collected and summarized by scientist of the “Center of Machine Learning and Intelligent Systems, which can be used for later analysis. The input data and description of the experiment and how this data was collected can be found at the following web site:
-o Human Activity Recognition Using Smartphones Data Set (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+o http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 In his research paper “Tidy Data”, Hadley Wickham states that “Tidy datasets provide a standardized way to link the structure of a dataset (its physical layout) with its semantics (its meaning)”. Author considers a dataset either messy or tidy depending on how rows, columns and tables are matched up with observations, variable and types. In a tidy data:
 o Each variable forms a column
 o Each observation forms a row
 o Each type of observation unit forms a table.
+
 Therefore, “tidy data” makes it easy for an analyst or a computer to extra needed variables because it provides a standard way of structuring a dataset.
 An R script (run_analysis.R) was developed that performs the following:
 o Changes the original variable names with descriptive variable names.
